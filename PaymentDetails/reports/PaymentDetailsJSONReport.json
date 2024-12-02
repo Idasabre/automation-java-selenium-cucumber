@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User has already filled all neccessery details in Room booking form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6606411600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaymentDetailsStepDef.setUpStepEnv()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User will try to register payment details with invalid set of information",
+        "description": "",
+        "id": "conference-room-booking-payment;user-will-try-to-register-payment-details-with-invalid-set-of-information",
+        "after": [
+          {
+            "result": {
+              "duration": 299233500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaymentDetailsStepDef.tearDownStepEnv()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 313435500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Payment Details page",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_is_on_Payment_Details_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199764200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click \u0027Register\u0027 link without entering \u0027FirstName\u0027",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_click_Register_link_without_entering_FirstName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13032600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\u0027Please fill the First Name\u0027 message should display",
+            "match": {
+              "location": "PaymentDetailsStepDef.please_fill_the_First_Name_message_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160630000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click \u0027Register\u0027 link without entering \u0027LastName\u0027",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_click_Register_link_without_entering_LastName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4162400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\u0027Please fill the Last Name\u0027 message should display",
+            "match": {
+              "location": "PaymentDetailsStepDef.please_fill_the_Last_Name_message_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146906200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click \u0027Register\u0027 link without entering \u0027DebitCardNo\u0027",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_click_Register_link_without_entering_DebitCardNo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5129400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "\u0027Please fill the Debit card Number\u0027 message should display",
+            "match": {
+              "location": "PaymentDetailsStepDef.please_fill_the_Debit_card_Number_message_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216412900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click \u0027Register\u0027 link without entering \u0027CVV\u0027",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_click_Register_link_without_entering_CVV()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7254400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\u0027Please fill the CVV\u0027 message should display",
+            "match": {
+              "location": "PaymentDetailsStepDef.please_fill_the_CVV_message_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 223209600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click \u0027Register\u0027 link without entering \u0027CardExpMonth\u0027",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_click_Register_link_without_entering_CardExpMonth()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8512500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\u0027Please fill expiration month\u0027 message should display",
+            "match": {
+              "location": "PaymentDetailsStepDef.please_fill_expiration_month_message_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 192623000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click \u0027Register\u0027 link without entering \u0027CardExpYear\u0027",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_click_Register_link_without_entering_CardExpYear()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10183000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "\u0027Please fill the expiration year\u0027 message should display",
+            "match": {
+              "location": "PaymentDetailsStepDef.please_fill_the_expiration_year_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User has already filled all neccessery details in Room booking form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5401297900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaymentDetailsStepDef.setUpStepEnv()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User will try to register payment details with valid set of information",
+        "description": "",
+        "id": "conference-room-booking-payment;user-will-try-to-register-payment-details-with-valid-set-of-information",
+        "after": [
+          {
+            "result": {
+              "duration": 204605200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaymentDetailsStepDef.tearDownStepEnv()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 256737200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on Payment Details page",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_is_on_Payment_Details_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521788800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click \u0027Register\u0027 link after entering Valid set of information",
+            "match": {
+              "location": "PaymentDetailsStepDef.user_click_Register_link_after_entering_Valid_set_of_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5247500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "\u0027Registarion successful!!!\u0027 message should display",
+            "match": {
+              "location": "PaymentDetailsStepDef.registarion_successful_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Conference room booking payment",
+    "description": "This feature will test payment for room booking",
+    "id": "conference-room-booking-payment",
+    "keyword": "Feature",
+    "uri": "PaymentDetails.feature"
+  }
+]

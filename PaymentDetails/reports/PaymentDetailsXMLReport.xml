@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="14.130331">
+<testcase classname="Conference room booking payment" name="User will try to register payment details with invalid set of information" time="7.906759">
+<system-out><![CDATA[Given User is on Payment Details page.......................................passed
+When User click 'Register' link without entering 'FirstName'................passed
+Then 'Please fill the First Name' message should display....................passed
+When User click 'Register' link without entering 'LastName'.................passed
+Then 'Please fill the Last Name' message should display.....................passed
+When User click 'Register' link without entering 'DebitCardNo'..............passed
+Then 'Please fill the Debit card Number' message should display.............passed
+When User click 'Register' link without entering 'CVV'......................passed
+Then 'Please fill the CVV' message should display...........................passed
+When User click 'Register' link without entering 'CardExpMonth'.............passed
+Then 'Please fill expiration month' message should display..................passed
+When User click 'Register' link without entering 'CardExpYear'..............passed
+Then 'Please fill the expiration year' message should display...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Conference room booking payment" name="User will try to register payment details with valid set of information" time="6.223572">
+<system-out><![CDATA[Given User is on Payment Details page.......................................passed
+When User click 'Register' link after entering Valid set of information.....passed
+Then 'Registarion successful!!!' message should display.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
